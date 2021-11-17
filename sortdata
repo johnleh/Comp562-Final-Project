@@ -1,0 +1,14 @@
+#!/bin/bash
+
+DIR='/home/denvermassey/Desktop/Fall2021/Comp 562/Comp562-Final-Project/data/Dataset_BUSI_with_GT'
+
+TARGET_DIR='/home/denvermassey/Desktop/Fall2021/Comp 562/Comp562-Final-Project/data/Dataset_BUSI_with_GT_no_masks'
+
+mkdir "$TARGET_DIR"
+cp -R "$DIR"/* "$TARGET_DIR"
+
+for dir in "$TARGET_DIR"/*/; do
+    for file in "$dir"*_mask*; do
+        rm "$file"
+    done
+done
