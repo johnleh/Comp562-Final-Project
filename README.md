@@ -2,8 +2,10 @@ Final Project for Comp 562
 
 Ideas / To Do:
 * Left vs Right Breast (?)
-* Remove spaces and filter out masked images
-* 
+* Add more samples by rotating or adding noise to current samples
+* Neural Network
+* Logistic Reg
+* Naive Bayes
 
 LaTeX Document: https://www.overleaf.com/7899227837tvmtbcxctdzh
 
