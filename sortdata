@@ -1,8 +1,8 @@
 #!/bin/bash
 
-DIR='/home/denvermassey/Desktop/Fall2021/Comp 562/Comp562-Final-Project/data/Dataset_BUSI_with_GT'
+DIR='C:\Users\ilpie\Desktop\Fall 2021\Comp 562\Comp562-Final-Project\data\Dataset_BUSI_with_GT'
 
-TARGET_DIR='/home/denvermassey/Desktop/Fall2021/Comp 562/Comp562-Final-Project/data/Dataset_BUSI_with_GT_no_masks'
+TARGET_DIR='C:\Users\ilpie\Desktop\Fall 2021\Comp 562\Comp562-Final-Project\data\Dataset_BUSI_with_GT_no_masks'
 
 mkdir "$TARGET_DIR"
 cp -R "$DIR"/* "$TARGET_DIR"
